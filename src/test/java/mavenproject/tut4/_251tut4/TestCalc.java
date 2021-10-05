@@ -14,4 +14,10 @@ public class TestCalc extends TestCase {
         Assert.assertEquals(5,result);
     }
 
+    public void testsubtract() {
+        Clac clac = new Clac();
+        int result = clac.subtract(2, 3);
+        Assert.assertEquals(-1, result);
+    }
+
 }

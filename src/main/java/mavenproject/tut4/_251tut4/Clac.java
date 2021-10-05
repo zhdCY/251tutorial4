@@ -8,7 +8,7 @@ public class Clac {
     }
     public static int  subtract(int m,int n) {
         int result;
-        result = m + n;
+        result = m - n;
         return result;
     }
 }
